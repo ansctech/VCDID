@@ -1,0 +1,25 @@
+    {
+        "@context": [
+            "https://www.w3.org/ns/did/v1"
+        ],
+        "id": "did:web:sreejit-k.github.io:VCTest:cb5c8280-8514-4b6f-903e-d434053746ea",
+        "alsoKnownAs": [
+            "king@gmail.com"
+        ],
+        "service": [],
+        "verificationMethod": [
+            {
+                "id": "did:web:sreejit-k.github.io:VCTest:cb5c8280-8514-4b6f-903e-d434053746ea#key-0",
+                "type": "Ed25519VerificationKey2020",
+                "@context": "https://w3id.org/security/suites/ed25519-2020/v1",
+                "controller": "did:web:sreejit-k.github.io:VCTest:cb5c8280-8514-4b6f-903e-d434053746ea",
+                "publicKeyMultibase": "z6Mkf9ngpqsnAVXgmNKk4DeCZc4t8aCwe1Aq6mkEcQfGrPnv"
+            }
+        ],
+        "authentication": [
+            "did:web:sreejit-k.github.io:VCTest:cb5c8280-8514-4b6f-903e-d434053746ea#key-0"
+        ],
+        "assertionMethod": [
+            "did:web:sreejit-k.github.io:VCTest:cb5c8280-8514-4b6f-903e-d434053746ea#key-0"
+        ]
+    }
